@@ -14,5 +14,8 @@ This is a React application that calculates park entrance fees based on the numb
 - **CSS**: Styling for the application.
 - **JavaScript (ES6+)**: For interactive functionalities.
 
+**Clone the repository:**
 
+   
+   git clone https://github.com/sooryaprabha1117/BillPayment.git
 
