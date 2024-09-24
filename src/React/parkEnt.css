@@ -1,0 +1,85 @@
+/* Base styles */
+center {
+    background-image: url(gif.gif);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+label{
+    font-size: 20px;
+    color: #850458;
+   
+}
+#text{
+    font-size: small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#5c033d
+}
+#yes {
+    margin-left: 29px;
+}
+
+#soor {
+    font-size: large;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    border-width: 1px;
+    border-radius: 30%;
+    border-color: rgb(87, 8, 87);
+    border-left: 8px solid rgb(78, 2, 78);
+    box-shadow: 10px 10px rgba(158, 12, 158, 0.459);
+    border-style: solid;
+    padding: 70px;
+    text-align: center; /* Center the content */
+}
+
+#head {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 
+    0 0 7px #310121,
+    0 0 10px #140116,
+    0 0 21px #430146,
+    0 0 42px rgb(236, 115, 240),
+    0 0 82px rgb(248, 245, 248),
+    0 0 92px rgb(247, 241, 247),
+    0 0 102px rgb(240, 235, 240),
+    0 0 151px rgb(245, 242, 245);
+    margin-top: 0px;
+    padding: 10px;
+    color: rgb(252, 251, 253);
+    font-size: 30px;
+}
+
+/* Media queries for responsive design */
+
+/* Small screens */
+@media screen and (max-width: 600px) {
+    #soor {
+        padding: 30px; /* Decrease padding for smaller screens */
+    }
+
+    #head {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+}
+
+/* Medium screens */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    #soor {
+        padding: 50px; /* Adjust padding for medium screens */
+    }
+
+    #head {
+        font-size: 28px; /* Adjust font size for medium screens */
+    }
+}
+
+/* Large screens */
+@media screen and (min-width: 1025px) {
+    #soor {
+        padding: 70px; /* Adjust padding for large screens */
+    }
+
+    #head {
+        font-size: 32px; /* Adjust font size for large screens */
+    }
+}
